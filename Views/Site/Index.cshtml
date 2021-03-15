@@ -1,0 +1,14 @@
+﻿@{ 
+
+    ViewData["Title"] = "Index";
+ }
+
+<h1>Index</h1>
+
+
+@{ 
+    //as person object bnanay ke leye kiya viewdata ko
+    Person person = ViewData["Person"] as Person;
+}
+<p> Full Name=@person.FullName</p>
+<p> City:@person.City</p>
